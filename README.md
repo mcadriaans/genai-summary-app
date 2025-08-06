@@ -14,10 +14,13 @@ SnapSummary is a Streamlit-powered web app that allows users to paste in raw tex
 
 ## 📁 Project Structure
 ```
-📁 genai-summary-app/ 
-|--> 🐍 summarization.py # Main application script 
-|--> 🔐 .env # Contains API key for Gemini (not committed) 
-|--> 📋 requirements.txt # Python dependencies └── README.md # You're here!
+📁 genai-summary-app/                    # Project root folder
+|--> 📁 assets/                          # Static files (e.g. images, icons)       
+      |--> screenshot.png                 # Web app preview image
+|--> README.md                            # Project overview and usage guide      YOU ARE HERE!
+|--> 🐍 summarization.py                  # Main application script 
+|--> 🔐 .env                              # Contains API key for Gemini (not committed) 
+|--> 📋 requirements.txt                  # Python dependencies 
 ```
 
 ## 🔑 Environment Variables
@@ -60,7 +63,7 @@ If deploying on a cloud server like AWS EC2, make sure port 8501 is open in your
 
 Here’s what SnapSummary looks like in action:
 
-![SnapSummary Screenshot](/screenshot.png)
+![SnapSummary Screenshot](assets/screenshot.png)
 
 ## 💬 Credits
 Made with 💜 using Streamlit + Gemini by Michéle.
