@@ -32,7 +32,7 @@ GOOGLE_API_KEY=your-google-api-key-here
 
 Make sure `.env` is placed alongside `summarization.py`.
 
-## 🛠️ Installation
+## 🛠️ Quickstart
 
 1. **Clone the repository**
    ```bash
