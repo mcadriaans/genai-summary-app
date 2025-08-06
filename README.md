@@ -55,6 +55,13 @@ streamlit run summarization.py
 By default, the app will launch at http://localhost:8501.
 If deploying on a cloud server like AWS EC2, make sure port 8501 is open in your security group and replace localhost with your instance’s public IP.
 
+
+## 🌟 App Preview
+
+Here’s what SnapSummary looks like in action:
+
+![SnapSummary Screenshot](/screenshot.png)
+
 ## 💬 Credits
 Made with 💜 using Streamlit + Gemini by Michéle.
 
